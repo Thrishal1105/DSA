@@ -11,19 +11,40 @@
     Object --> An object is an instance of a class.
 """
 
-class Car:
-    """ A class representing a car. """
 
-    def __init__(self, make, model, year):
-        """ Initialize the car with make, model, and year. """
-        self.make = make
-        self.model = model
-        self.year = year
 
-    def start_engine(self):
-        """ Start the car's engine. """
-        return f"The {self.year} {self.make} {self.model}'s engine has started."
+# Basic example of a class and object 
 
-    def stop_engine(self):
-        """ Stop the car's engine. """
-        return f"The {self.year} {self.make} {self.model}'s engine has stopped."
+# class Car: # Defining a class named Car
+#     name = "Car"  
+#     color = "Red"
+
+# c1 = Car() # Creating an object of the class Car
+# print(c1.name) 
+# print(c1.color)
+
+
+
+
+# using self keyword in class
+
+# class Student:
+#     def StudentDetails(self):
+#         print("This is a student class")
+
+# s1 = Student()
+# s1.StudentDetails()
+
+        
+
+
+
+
+
+# class Car:
+#     def model(self, name, color): # passing Parameters
+#         print(name, color)
+
+# c1 = Car()
+# c1.model("Toyota", "Blue") # passing arguments
+
