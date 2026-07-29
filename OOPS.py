@@ -11,3 +11,19 @@
     Object --> An object is an instance of a class.
 """
 
+class Car:
+    """ A class representing a car. """
+
+    def __init__(self, make, model, year):
+        """ Initialize the car with make, model, and year. """
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def start_engine(self):
+        """ Start the car's engine. """
+        return f"The {self.year} {self.make} {self.model}'s engine has started."
+
+    def stop_engine(self):
+        """ Stop the car's engine. """
+        return f"The {self.year} {self.make} {self.model}'s engine has stopped."
