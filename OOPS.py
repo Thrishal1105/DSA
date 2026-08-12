@@ -48,3 +48,16 @@
 # c1 = Car()
 # c1.model("Toyota", "Blue") # passing arguments
 
+
+
+
+
+
+# Constructor method in class
+
+# class Car:
+#     def __init__(self, name, color): # constructor method
+#         print(name, color)
+    
+# c1 = Car("Toyota", "Blue")
+
